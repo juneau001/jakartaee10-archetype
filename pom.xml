@@ -2,11 +2,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.juneau001</groupId>
-    <artifactId>webapp-jakartaee11</artifactId>
+    <artifactId>webapp-jakartaee10</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.0</version>
-    <name>Jakarta EE 11 WAR Archetype</name>
-    <description>Jakarta EE 11 Maven Archetype</description>
+    <version>1.1.0</version>
+    <name>Jakarta EE 10 WAR Archetype</name>
+    <description>Jakarta EE 10 Maven Archetype</description>
     <url>http://maven.apache.org</url>
     <licenses>
         <license>
@@ -31,8 +31,8 @@
         </dependency>
     </dependencies>
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
     <distributionManagement>
         <snapshotRepository>
@@ -55,7 +55,7 @@
         <developerConnection>
             scm:git:ssh//github.com/juneau001/jakartaee10-archetype.git
         </developerConnection>
-        <url>https://github.com/juneau001/jakartaee11-archetype_jdk17</url>
+        <url>https://github.com/juneau001/jakartaee10-archetype</url>
         <tag>HEAD</tag>
     </scm>
     <profiles>
@@ -113,7 +113,7 @@
                     <plugin>
                         <groupId>org.sonatype.plugins</groupId>
                         <artifactId>nexus-staging-maven-plugin</artifactId>
-                        <version>1.6.13</version>
+                        <version>1.6.7</version>
                         <extensions>true</extensions>
                         <configuration>
 
