@@ -1,3 +1,3 @@
-# jakartaee10_archetype
+# jakartaee11_archetype
 
-Jakarta EE 10 Maven Archetype.
+Jakarta EE 11 Maven Archetype.
